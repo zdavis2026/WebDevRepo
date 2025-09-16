@@ -1,0 +1,31 @@
+footer { background-color: lightblue;
+    font-family: Arial;
+    color: darkblue;
+    padding: 10px;
+    border-style: dotted;
+    border-width:thin;
+    border-color:darkblue;}
+#notice {width: 80%;
+    text-align: center;}
+.headline {color:darkseagreen;
+    border-bottom: 2px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: dotted;}
+h1 {text-shadow: 2px 2px 2px;
+    background-color: rgba(222, 184, 135, 0.5);
+    color:brown;
+    font-family: sans-serif;
+    font-size: 4em;}
+#section {font-size: small;
+    color: firebrick;
+    font-family: Arial;
+    background-color: gray;
+    width: 80%;
+    text-shadow: 1px 1px 1px;}
+#figure { border: 1px solid #000000;
+    font-family: sans-serif;
+    padding: 5px;
+    text-align: center;
+    width: 350px;}
