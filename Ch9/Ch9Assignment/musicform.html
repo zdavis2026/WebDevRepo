@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Music Form</title>
+<meta charset="utf-8">
+<style>
+h1 {font-family: Arial, sans-serif;}
+fieldset {width: 340px; border: 3px ridge #36ae9c; padding: 10px; margin-bottom: 10px;}
+legend {font-family: Georgia; font-weight: bold;}
+label {font-family: Arial, sans-serif;}
+footer {font-style: italic;}
+</style>
+</head>
+<body>
+<h1>Music Form</h1>
+<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+<label for="name">Name:</label>
+<input type="text" name="name" id="name"><br>
+<label for="email">Email:</label>
+<input type="email" name="email" id="email"><br><br>
+Describe your music taste:<br>
+<textarea name="taste" id="taste" cols="60" rows="3">Enter your taste</textarea><br><br>
+What was the last day you listened to music?
+<input type="date" name="date" id="date"><br><br>
+<fieldset><legend>Favorite Genre</legend>
+Pick your favorite of these genres:<br>
+<input type="radio" name="favgenre" id="favgenre" value="pop">Pop<br>
+<input type="radio" name="favgenre" id="favgenre" value="rap">Rap<br>
+<input type="radio" name="favgenre" id="favgenre" value="country">Country<br>
+<input type="radio" name="favgenre" id="favgenre" value="rock">Rock<br>
+<input type="radio" name="favgenre" id="favgenre" value="jazz">Jazz<br>
+<input type="radio" name="favgenre" id="favgenre" value="edm">EDM<br>
+<input type="radio" name="favgenre" id="favgenre" value="rnb">RNB<br><br></fieldset>
+<fieldset><legend>Favorite Artists</legend>
+Which of these arists do you most enjoy listening to?<br><br>
+<select size="3" name="bestartist" id="bestartist" multiple="True">
+    <option value="swift">Taylor Swift</option>
+    <option value="lamar">Kendrick Lamar</option>
+    <option value="wallen">Morgan Wallen</option>
+    <option value="acdc">AC/DC</option>
+    <option value="davis">Miles Davis</option>
+    <option value="daftpunk">Daft Punk</option>
+    <option value="caesar">Daniel Caesar</option>
+</select><br><br></fieldset>
+<input type="submit" id="submit" value="Submit">
+<input type="reset">
+</form><br>
+<footer>Copyright &copy; 2025 Zachary Davis<br>
+	<a href="fakeemail@webdevrepo.com">fakeemail@webdevrepo.com</a>
+</footer>
+</body>
+</html>
